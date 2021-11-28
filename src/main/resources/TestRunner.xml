@@ -14,9 +14,9 @@
   </test>
   
     <test name="AddrressBookContact" >
-    <parameter name="p1" value="Sonal2"></parameter>
-    <parameter name="p2" value="Mittal13"></parameter>
-    <parameter name="p3" value="+ 358 666 953"></parameter>
+    <parameter name="p1" value="Sonal123"></parameter>
+    <parameter name="p2" value="Mittalabc"></parameter>
+    <parameter name="p3" value="+ 458 666 953"></parameter>
     <parameter name="p4" value="george@mittal.com"></parameter>
     <parameter name="p5" value="6/11/58,"></parameter>
     <classes>
