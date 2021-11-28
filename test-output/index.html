@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-ContinousTesting" class="navigator-link">
+              <span class="suite-name border-passed">ContinousTesting</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-ContinousTesting" class="navigator-link ">
+                    <span>C:\Users\sonal\eclipse-workspace\ContinousTestingProject\src\main\resources\TestRunner.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-ContinousTesting" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-ContinousTesting" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-ContinousTesting" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-ContinousTesting" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-ContinousTesting" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-ContinousTesting" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-ContinousTesting" class="hide-methods passed suite-ContinousTesting"> (hide)</a> <!-- hide-methods passed suite-ContinousTesting -->
+                      <a href="#" panel-name="suite-ContinousTesting" class="show-methods passed suite-ContinousTesting"> (show)</a> <!-- show-methods passed suite-ContinousTesting -->
+                    </span>
+                    <div class="method-list-content passed suite-ContinousTesting">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ContinousTesting" title="com.addrBook.Tests.ValidateNewContactTest" class="method navigator-link" hash-for-method="clickNewTest">clickNewTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ContinousTesting" title="com.addrBook.Tests.ValidateNewContactTest" class="method navigator-link" hash-for-method="createcontacttest(Sonal, Mittal, + 358 555 853, george@white.com, 6/11/59,)">createcontacttest(Sonal, Mittal, + 358 555 853, george@white.com, 6/11/59,)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ContinousTesting" title="com.addrBook.Tests.ValidateTableEntryTest" class="method navigator-link" hash-for-method="emailClickTest">emailClickTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ContinousTesting" title="com.addrBook.Tests.ValidateTableEntryTest" class="method navigator-link" hash-for-method="fetchPhonenumberTest">fetchPhonenumberTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ContinousTesting" title="com.addrBook.Tests.ValidateURLTitleTest" class="method navigator-link" hash-for-method="validateTitleTest">validateTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-ContinousTesting -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-ContinousTesting" class="panel ContinousTesting">
+          <div class="suite-ContinousTesting-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.addrBook.Tests.ValidateTableEntryTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="emailClickTest">
+                  </a> <!-- emailClickTest -->
+                  <span class="method-name">emailClickTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fetchPhonenumberTest">
+                  </a> <!-- fetchPhonenumberTest -->
+                  <span class="method-name">fetchPhonenumberTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ContinousTesting-class-passed -->
+          <div class="suite-ContinousTesting-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.addrBook.Tests.ValidateNewContactTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickNewTest">
+                  </a> <!-- clickNewTest -->
+                  <span class="method-name">clickNewTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createcontacttest(Sonal, Mittal, + 358 555 853, george@white.com, 6/11/59,)">
+                  </a> <!-- createcontacttest(Sonal, Mittal, + 358 555 853, george@white.com, 6/11/59,) -->
+                  <span class="method-name">createcontacttest</span>
+                  <span class="parameters">(Sonal, Mittal, + 358 555 853, george@white.com, 6/11/59,)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ContinousTesting-class-passed -->
+          <div class="suite-ContinousTesting-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.addrBook.Tests.ValidateURLTitleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateTitleTest">
+                  </a> <!-- validateTitleTest -->
+                  <span class="method-name">validateTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ContinousTesting-class-passed -->
+        </div> <!-- panel ContinousTesting -->
+        <div panel-name="test-xml-ContinousTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\sonal\eclipse-workspace\ContinousTestingProject\src\main\resources\TestRunner.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;ContinousTesting&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;AddrressBookTitle&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.addrBook.Tests.ValidateURLTitleTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AddrressBookTitle --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;AddrressBookTableentry&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.addrBook.Tests.ValidateTableEntryTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AddrressBookTableentry --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;AddrressBookContact&quot;&gt;
+    &lt;parameter name=&quot;p1&quot; value=&quot;Sonal&quot;/&gt;
+    &lt;parameter name=&quot;p2&quot; value=&quot;Mittal&quot;/&gt;
+    &lt;parameter name=&quot;p3&quot; value=&quot;+ 358 555 853&quot;/&gt;
+    &lt;parameter name=&quot;p4&quot; value=&quot;george@white.com&quot;/&gt;
+    &lt;parameter name=&quot;p5&quot; value=&quot;6/11/59,&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.addrBook.Tests.ValidateNewContactTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AddrressBookContact --&gt;
+&lt;/suite&gt; &lt;!-- ContinousTesting --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-ContinousTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for ContinousTesting</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">AddrressBookTitle (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">AddrressBookTableentry (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">AddrressBookContact (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-ContinousTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for ContinousTesting</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-ContinousTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for ContinousTesting</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_ContinousTesting');
+function tableData_ContinousTesting() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'emailClickTest')
+data.setCell(0, 2, 'com.addrBook.Tests.ValidateTableEntryTest')
+data.setCell(0, 3, 3612);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'createcontacttest')
+data.setCell(1, 2, 'com.addrBook.Tests.ValidateNewContactTest')
+data.setCell(1, 3, 3209);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validateTitleTest')
+data.setCell(2, 2, 'com.addrBook.Tests.ValidateURLTitleTest')
+data.setCell(2, 3, 550);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'clickNewTest')
+data.setCell(3, 2, 'com.addrBook.Tests.ValidateNewContactTest')
+data.setCell(3, 3, 545);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'fetchPhonenumberTest')
+data.setCell(4, 2, 'com.addrBook.Tests.ValidateTableEntryTest')
+data.setCell(4, 3, 78);
+window.suiteTableData['ContinousTesting']= { tableData: data, tableDiv: 'times-div-ContinousTesting'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <div id="times-div-ContinousTesting">
+              </div> <!-- times-div-ContinousTesting -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-ContinousTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for ContinousTesting</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-ContinousTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-ContinousTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.addrBook.Tests.ValidateURLTitleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validateTitleTest</span>
+                <span class="method-start">6309 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">6865 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.addrBook.Tests.ValidateTableEntryTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">7494 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">emailClickTest</span>
+                <span class="method-start">12829 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fetchPhonenumberTest</span>
+                <span class="method-start">16444 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">16523 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.addrBook.Tests.ValidateNewContactTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">OpenBrowser</span>
+                <span class="method-start">20790 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">clickNewTest</span>
+                <span class="method-start">26235 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createcontacttest(Sonal, Mittal, + 358 555 853, george@white.com, 6/11/59,)</span>
+                <span class="method-start">26784 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">29997 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="ContinousTesting" verbose="1" >
+  <test name="AddrressBookTitle" >
+    <classes>
+       <class name="com.addrBook.Tests.ValidateURLTitleTest" />
+    </classes>
+  </test>
+  
+    <test name="AddrressBookTableentry" >
+    <classes>
+       <class name="com.addrBook.Tests.ValidateTableEntryTest" />
+    </classes>
+  </test>
+  
+    <test name="AddrressBookContact" >
+    <parameter name="p1" value="Sonal1"></parameter>
+    <parameter name="p2" value="Mittal123"></parameter>
+    <parameter name="p3" value="+ 358 555 953"></parameter>
+    <parameter name="p4" value="george@mittal.com"></parameter>
+    <parameter name="p5" value="6/11/58,"></parameter>
+    <classes>
+       <class name="com.addrBook.Tests.ValidateNewContactTest" />
+    </classes>
+  </test>
+</suite>

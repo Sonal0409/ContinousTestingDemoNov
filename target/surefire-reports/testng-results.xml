@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-28T16:56:28Z" name="ContinousTesting" finished-at="2021-11-28T16:57:02Z" duration-ms="34835">
+    <groups>
+    </groups>
+    <test started-at="2021-11-28T16:56:28Z" name="AddrressBookTitle" finished-at="2021-11-28T16:56:34Z" duration-ms="6703">
+      <class name="com.addrBook.Tests.ValidateURLTitleTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.addrBook.Tests.ValidateURLTitleTest@7486b455]" started-at="2021-11-28T16:56:28Z" name="openBrowser" finished-at="2021-11-28T16:56:33Z" duration-ms="5671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="validateTitleTest()[pri:0, instance:com.addrBook.Tests.ValidateURLTitleTest@7486b455]" started-at="2021-11-28T16:56:33Z" name="validateTitleTest" finished-at="2021-11-28T16:56:34Z" duration-ms="427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitleTest -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.addrBook.Tests.ValidateURLTitleTest@7486b455]" started-at="2021-11-28T16:56:34Z" name="closebrowser" finished-at="2021-11-28T16:56:34Z" duration-ms="571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.addrBook.Tests.ValidateURLTitleTest -->
+    </test> <!-- AddrressBookTitle -->
+    <test started-at="2021-11-28T16:56:34Z" name="AddrressBookTableentry" finished-at="2021-11-28T16:56:49Z" duration-ms="14818">
+      <class name="com.addrBook.Tests.ValidateTableEntryTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.addrBook.Tests.ValidateTableEntryTest@20bd8be5]" started-at="2021-11-28T16:56:34Z" name="openBrowser" finished-at="2021-11-28T16:56:39Z" duration-ms="4994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="emailClickTest()[pri:49, instance:com.addrBook.Tests.ValidateTableEntryTest@20bd8be5]" started-at="2021-11-28T16:56:39Z" name="emailClickTest" finished-at="2021-11-28T16:56:43Z" duration-ms="3628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailClickTest -->
+        <test-method signature="fetchPhonenumberTest()[pri:50, instance:com.addrBook.Tests.ValidateTableEntryTest@20bd8be5]" started-at="2021-11-28T16:56:43Z" name="fetchPhonenumberTest" finished-at="2021-11-28T16:56:45Z" duration-ms="2054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchPhonenumberTest -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.addrBook.Tests.ValidateTableEntryTest@20bd8be5]" started-at="2021-11-28T16:56:45Z" name="closebrowser" finished-at="2021-11-28T16:56:49Z" duration-ms="4138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.addrBook.Tests.ValidateTableEntryTest -->
+    </test> <!-- AddrressBookTableentry -->
+    <test started-at="2021-11-28T16:56:49Z" name="AddrressBookContact" finished-at="2021-11-28T16:57:02Z" duration-ms="13244">
+      <class name="com.addrBook.Tests.ValidateNewContactTest">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:com.addrBook.Tests.ValidateNewContactTest@7975d1d8]" started-at="2021-11-28T16:56:49Z" name="OpenBrowser" finished-at="2021-11-28T16:56:54Z" duration-ms="5187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="clickNewTest()[pri:49, instance:com.addrBook.Tests.ValidateNewContactTest@7975d1d8]" started-at="2021-11-28T16:56:54Z" name="clickNewTest" finished-at="2021-11-28T16:56:56Z" duration-ms="1666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickNewTest -->
+        <test-method signature="createcontacttest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:50, instance:com.addrBook.Tests.ValidateNewContactTest@7975d1d8]" started-at="2021-11-28T16:56:56Z" name="createcontacttest" finished-at="2021-11-28T16:56:58Z" duration-ms="2167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sonal1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mittal123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[+ 358 555 953]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[george@mittal.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[6/11/58,]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcontacttest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.addrBook.Tests.ValidateNewContactTest@7975d1d8]" started-at="2021-11-28T16:56:58Z" name="closeBrowser" finished-at="2021-11-28T16:57:02Z" duration-ms="4218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.addrBook.Tests.ValidateNewContactTest -->
+    </test> <!-- AddrressBookContact -->
+  </suite> <!-- ContinousTesting -->
+</testng-results>
